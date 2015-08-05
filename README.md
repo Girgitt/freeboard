@@ -1,3 +1,10 @@
+### Purpose of this fork: 
+1. integrate with werkzeug to form a simple front-end to RTUduino building automation project (unpublished yet)
+2. provide simple persistence layer and dashboards selection plugin or menu
+3. provide some interactive widgets (buttons, sliders)
+4. provide data source plugin for services suitable for local hosting - OSC (open sound control) server, redis or mq broker; preferred sources offering push communication
+5. provide plugin integrating processing.js code for fast widgets prototyping
+
 freeboard
 ==========
 

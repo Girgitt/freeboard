@@ -1,8 +1,10 @@
 ### Purpose of this fork: 
-1. integrate with werkzeug to form a simple front-end to RTUduino building automation project (unpublished yet)
+1. ~~integrate with werkzeug to form a simple front-end to RTUduino building automation project (unpublished yet)~~
+(integration with gevent-socket.io python server seems a better idea since push communication will be available as well)
 2. provide simple persistence layer and dashboards selection plugin or menu
 3. provide some interactive widgets (buttons, sliders)
-4. provide data source plugin for services suitable for local hosting - OSC (open sound control) server, redis or mq broker; preferred sources offering push communication
+4. ~~provide data source plugin for services suitable for local hosting - OSC (open sound control) server, redis or mq broker; preferred sources offering push communication~~
+(no need for this one. there is node.js(socket.io) data source plugin available in freeboard-plugins project which plays very nice with gevent-socket.io python server; only minor changes are neded like switching to pre 1.0 socket.io lib in the plugin)
 5. provide plugin integrating processing.js code for fast widgets prototyping
 
 freeboard

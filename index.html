@@ -16,6 +16,7 @@
                     $(function()
                     { //DOM Ready
                         freeboard.initialize(true);
+                        freeboard.newDashboard();
 
                         var hashpattern = window.location.hash.match(/(&|#)source=([^&]+)/);
                         if (hashpattern !== null) {
